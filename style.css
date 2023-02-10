@@ -1,0 +1,167 @@
+body{background-color:darkgoldenrod;}
+
+h2{
+    color: white;
+}
+
+
+
+footer{
+    height: 50px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 150px;
+
+}
+
+#pie{
+    position: relative;
+    left: 200px;
+    top: 12px;
+}
+
+nav{
+    background-color: white;
+
+}
+
+header{
+    background-color: darkblue;
+    position: relative;
+    height: 370px;
+
+}
+    
+    
+
+
+#navegador1{
+position: relative;
+bottom: 580px;
+left: 320px;
+font-size: 25px;
+border: solid;
+margin-right: 640px;
+}
+
+#nombre{
+    font-size: 150px;
+    margin-right: 590px;
+    position: relative;
+    left: 300px;
+    bottom: 380px;
+}
+
+#fotoperfil{
+    width: 250px;
+    height: 250px;
+}
+
+#subtitulo{
+    font-size: 50px;
+    margin-right: 930px;
+    position: relative;
+    left: 450px;
+    bottom: 500px;
+}
+
+#logoemail{
+    font-size: 50px;
+    position: relative;
+    bottom: 450px;
+    left: 350px;
+}
+#logotelefono{
+    font-size: 50px;
+    position: relative;
+    bottom: 450px;
+    left: 475px;
+    }
+#logoubicacion{
+    font-size: 50px;
+    position: relative;
+    bottom: 450px;
+    left: 625px;
+        }
+#logonacimiento{
+    font-size: 50px;
+    position: relative;
+    bottom: 450px;
+    left: 775px;
+            }
+
+#logoemail::before{
+    opacity: 1;
+}
+
+#logoemail:hover::before{
+    content: attr(data-content);
+    opacity: 1;
+    font-size: 25px;
+
+
+}
+
+#logotelefono::before{
+    opacity: 1;
+}
+
+#logotelefono:hover::before{
+    content: attr(data-content);
+    opacity: 1;
+    font-size: 25px;
+    
+
+}
+
+#logoubicacion::before{
+    opacity: 1;
+}
+
+#logoubicacion:hover::before{
+    content: attr(data-content);
+    opacity: 1;
+    font-size: 25px;
+    
+
+}
+
+#logonacimiento::before{
+    opacity: 1;
+}
+
+#logonacimiento:hover::before{
+    content: attr(data-content);
+    opacity: 1;
+    font-size: 25px;
+    
+
+}
+
+#sobremi{
+    color: yellow;
+}
+
+
+h2{
+    font-size: 37px;
+}
+
+p{
+    font-size: 20px;
+}
+
+li{
+    font-size: 20px;
+}
+
+h3{
+    font-size: 28px;
+}
+
+h4{
+    font-size: 24px;
+}
+

@@ -5,65 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum vitae</title>
+    <link rel="icon" href="909314.png" >
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <img src="fotoperfil.jpg" alt="Ivan Lynch">
-    <h1>Ivan Lynch</h1>
-    <h3>Contador 32 años</h3>
-    <head>
-    <nav>
-        <ul>
-            <li>Fecha de nacimiento: 4/1/1990</li>
-            <li>E-mail: ivan.lynch@example.com</li>
-            <Li>Direccion: 4382 Hogan St</Li>
-            <li>Telefono: (752) 220-1839</li>
-        </ul>
+    <header>
+      
+        <img src="fotoperfil.jpg" alt="Ivan Lynch" id="fotoperfil">
+       <h1 id="nombre">Ivan Lynch</h1>
+       <h3 id="subtitulo">Contador 32 años</h3>
+       <div class>
+       <i class="fa-regular fa-envelope" id="logoemail" data-content="ivan.lynch@example.com"></i>
+       <i class="fa-solid fa-phone" id="logotelefono" data-content="(752) 220-1839"></i>
+       <i class="fa-solid fa-location-dot" id="logoubicacion" data-content="4382 Hogan St"></i>
+       <i class="fa-solid fa-calendar-days" id="logonacimiento"data-content="4/1/1990"></i>
+       </div>  
+   
+    <nav  id="navegador1" >
+        <a href="#sobremi">Sobre mi</a>
+        <a href="#educacion">Educacion</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#herramientas">Herramientas de software</a>
+        <a href="#idiomas">Idiomas</a>
+        
+        
     </nav>
-    </head>
-    <article>
-      <h2>EXPERIENCIA</h2>
-      <h3>Soto y ochoa - Buenos Aires</h3>
-      <h4>Gerente de contabilidad, 2018 - Actualidad</h4>
-         <ul>
-           <li>Hice presupuesto periodicos para prever las exigencias mensuales de efectivo</li>
-           <li>Redacte informes financieros y reglamentarios de ley para incorporar y abrir oficias en Cordoba y Rio Negro</li>
-           <li>Redacte previsiones de gastos mensuales y anuales. ademas de todas las acciones necesarias para administrar costos conforme al presupuesto</li>
-         </ul>
-      <h3>Industrias Ariova - Buenos Aires</h3>
-      <h4>Asistente de contabilidad, 2017 a 2018</h4>
-        <ul>
-            <li>Trabaje con hojas de calculos, libros y expedientes de ventas y compras.</li>
-            <li>redacte informes financieros</li>
-            <li>hice calculos y recisiones para garantizar que fueras correctos los pagos, las cantidades y los registros.</li>
-        </ul>
 
-        <h2>HERRAMIENTAS DE SOFTWARE</h2>
+    </header>
+    
+    <article>
+        <a name="sobremi"  ></a>
+        <h2>SOBRE MI</h2>
+          <p>Gestor de contabilidad a tiempo completo con 10 años de experiencia en administracion de sueldos<br>
+             contabilidad empresarial, analisis de riesgos, presupuestos y recursos humanos. <br>
+            Mi experiencia incluye trabajo amplio en cuentras por pagar, cuentas por cobrar, cobranza, informes,<br>
+            financieros y auditorias.</p>
+         <a name="educacion"></a>
+            <h2>EDUCACION</h2>
+           <h3>Colegio Cardenal Newman.</h3>
+             <p>Mencion honorifica, 2012</p>
+         <h2> Universidad Nacional de la Plata</h2>
+           <p>Licenciatura en contabilidad, 2017</p>
+           <button type="button"  id="botontitulo">Certificado</button>
+         <button type="button"  id="botonocultartitulo" style="display:none;">Ocultar</button>
+  
+               <img id="titulo1" src="UNIVERSIDADDELAPLATA.png" alt="titulo" height="500px" width="800px" style="display:none;">
+    </article>
+    <aside>
+    <a name="experiencia"></a>
+    <h2>EXPERIENCIA</h2>
+      <h3>Soto y ochoa - Buenos Aires</h3>
+        <h4>Gerente de contabilidad, 2018 - Actualidad</h4>
+           <ul>
+             <li>Hice presupuesto periodicos para prever las exigencias mensuales de efectivo</li>
+             <li>Redacte informes financieros y reglamentarios de ley para incorporar y abrir oficias en Cordoba y Rio Negro</li>
+             <li>Redacte previsiones de gastos mensuales y anuales. ademas de todas las acciones necesarias para administrar costos conforme al presupuesto</li>
+           </ul>
+      <h3>Industrias Ariova - Buenos Aires</h3>
+       <h4>Asistente de contabilidad, 2017 a 2018</h4>
+           <ul>
+              <li>Trabaje con hojas de calculos, libros y expedientes de ventas y compras.</li>
+              <li>redacte informes financieros</li>
+              <li>hice calculos y recisiones para garantizar que fueras correctos los pagos, las cantidades y los registros.</li>
+           </ul>
+      <a name="herramientas"></a>
+     <h2>HERRAMIENTAS DE SOFTWARE</h2>
         <ul>
             <li>Procesador de texto</li>
             <li>Hoja de calculo</li>
             <li>Presentacion de diapositivas</li>
         </ul>
-
-        <h2>IDIOMAS</h2>
+      <a name="idiomas"></a>
+      <h2>IDIOMAS</h2>
         <ul>
             <li>Ingles: C2 - Examen IELTS (International English Language Testing System).</li>
+            <button type="button"  id="boton">Certificado</button>
+            <button type="button"  id="botonocultar" style="display:none;">Ocultar</button>
+     
+                  <img id="plano1" src="ieltscertificadofalso.png" alt="plano 1" height="400px" width="400px" style="display:none;">
+                  
+              
             <li>Español: Nativo</li>
         </ul>
-    </article>
-    <aside>
-        <h2>SOBRE MI</h2>
-        <p>Gestor de contabilidad a tiempo completo con 10 años de experiencia en administracion de sueldos<br>
-       contabilidad empresarial, analisis de riesgos, presupuestos y recursos humanos. <br>
-       Mi experiencia incluye trabajo amplio en cuentras por pagar, cuentas por cobrar, cobranza, informes,<br>
-       financieros y auditorias.</p>
-       <h2>EDUCACION</h2>
-       <h3>Colegio Cardenal Newman.</h3>
-       <p>Mencion honorifica, 2012</p>
-       <h2> Universidad Nacional de la Plata</h2>
-       <p>Licenciatura en contabilidad, 2017</p>
-    </aside>
+      </aside>
     <footer>
-        <p>Todos los datos son ficticios, creados para el Trabajo integrador de Argentina Programa, Front end Academy - 2022 </p>
+        <p id="pie">Todos los datos son ficticios, creados para el Trabajo integrador de Argentina Programa, Front end Academy - 2022 </p>
     </footer>
+    <script src="https://kit.fontawesome.com/a104e5a0a9.js" crossorigin="anonymous"></script> 
+    <script src="function.js"></script>
 </body>
 </html>
