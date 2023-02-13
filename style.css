@@ -1,108 +1,105 @@
-body{background-color:darkgoldenrod;}
-
+body{background-color:darkgoldenrod;
+border: solid;
+}
 h2{
     color: white;
 }
 
 
 
-footer{
-    height: 50px;
-    font-size: 20px;
-    background-color: black;
-    color: white;
-    position: relative;
-    top: 150px;
-
-}
-
-#pie{
-    position: relative;
-    left: 200px;
-    top: 12px;
-}
-
-nav{
-    background-color: white;
-
-}
-
 header{
     background-color: darkblue;
-    position: relative;
-    height: 370px;
-
-}
+    display: grid;
+    justify-items: center;
     
+    }
     
 
-
-#navegador1{
-position: relative;
-bottom: 580px;
-left: 320px;
-font-size: 25px;
-border: solid;
-margin-right: 640px;
+#sobremi{
+    color: yellow;
 }
 
+h2{
+    font-size: 37px;
+}
+
+p{
+    font-size: 20px;
+}
+
+li{
+    font-size: 20px;
+}
+
+h3{
+    font-size: 28px;
+}
+
+h4{
+    font-size: 24px;
+}
+
+.contenedor{
+width: 80%;
+max-width: 1000px;
+margin: 0 auto;
+overflow: hidden;
+background-color: black;
+}
 #nombre{
-    font-size: 150px;
-    margin-right: 590px;
-    position: relative;
-    left: 300px;
-    bottom: 380px;
+    margin: 0;
+    
+    font-size: 60px;
+}
+#subtitulo{
+    margin: 0;
+    
+    font-size: 35px;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    margin: 0;
+    display: grid;
+    justify-items: center;
 }
 
 #fotoperfil{
-    width: 250px;
-    height: 250px;
+    
+    width: 160px;
+    height: 160px;
 }
 
-#subtitulo{
+
+
+#logos{
     font-size: 50px;
-    margin-right: 930px;
-    position: relative;
-    left: 450px;
-    bottom: 500px;
+    background-color: darkblue;
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+    
 }
 
-#logoemail{
-    font-size: 50px;
-    position: relative;
-    bottom: 450px;
-    left: 350px;
-}
-#logotelefono{
-    font-size: 50px;
-    position: relative;
-    bottom: 450px;
-    left: 475px;
-    }
-#logoubicacion{
-    font-size: 50px;
-    position: relative;
-    bottom: 450px;
-    left: 625px;
-        }
-#logonacimiento{
-    font-size: 50px;
-    position: relative;
-    bottom: 450px;
-    left: 775px;
-            }
+
+
+ 
 
 #logoemail::before{
     opacity: 1;
 }
 
 #logoemail:hover::before{
+    
     content: attr(data-content);
     opacity: 1;
     font-size: 25px;
 
-
 }
+
 
 #logotelefono::before{
     opacity: 1;
@@ -135,33 +132,35 @@ margin-right: 640px;
 #logonacimiento:hover::before{
     content: attr(data-content);
     opacity: 1;
-    font-size: 25px;
-    
+    font-size: 25px;}
+
+
+    .navegador ul{
+        list-style: none;
+        text-align: center;
+        background-color: darkblue;
+        padding-top: 8px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding-bottom: 16px;
+}
+
+.navegador li{
+display: inline-block;
+}
+
+.navegador a{
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    display: block;
+    transition: .5s;
 
 }
 
-#sobremi{
-    color: yellow;
-}
 
 
-h2{
-    font-size: 37px;
-}
-
-p{
-    font-size: 20px;
-}
-
-li{
-    font-size: 20px;
-}
-
-h3{
-    font-size: 28px;
-}
-
-h4{
-    font-size: 24px;
+a:hover{
+    background-color: black;
 }
 
